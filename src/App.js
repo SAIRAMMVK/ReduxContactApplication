@@ -38,9 +38,10 @@ class App extends Component {
 
         <h4>Phone Book In Redux And React</h4>
         <hr />
-        {<ul>
+        <p>
           {this.props.contacts.map((contact, i) => <li key={i}>{contact.name}</li>)}
-        </ul>}
+        </p>
+        
 
         <div className="phonebook">
           <h5>Create a New Contact</h5>
